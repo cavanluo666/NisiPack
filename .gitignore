@@ -1,0 +1,32 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Nuitka / 构建产物
+dist/
+build/
+*.build/
+*.dist/
+*.onefile-build/
+*.spec
+
+# 随包分发的第三方 NSIS 运行时（体积大，且不应在本仓库重复分发）
+# 需要构建独立 exe 时请自行下载 NSIS 放到 vendor/NSIS/，见 README
+vendor/
+
+# 发布产物
+release/
+
+# 日志
+*.log
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+desktop.ini
+.DS_Store
